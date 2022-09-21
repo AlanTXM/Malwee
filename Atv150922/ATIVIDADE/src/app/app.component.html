@@ -8,22 +8,22 @@
 </head>
 <body>
   <div class="container">
-    <h1>Lista de Contatos</h1>
+    <div class="box">
+      <h1>Lista de Contatos</h1>
       <div>
-        <input type="text" class="form-control" [(ngModel)]="nContato" placeholder="Digite seu nome">
+        <input type="text" class="form-control" placeholder="Digite seu nome">
       </div>
       <div>
-        <input type="text" class="form-control" [(ngModel)]="tContato" placeholder="Digite seu telefone">
+        <input type="text" class="form-control" placeholder="Digite seu telefone">
       </div>
       <div>
         <button class="btn btn-primary" (click)="salvarDados">Enviar</button>
       </div>
-      <div></div>
-        <p>Nome: {{nContato}}</p>
-      </div>
-        <p>Telefone: {{tContato}}</p>
-      
+      <div>
+        <p>Nome:</p>
+        <p>Telefone: </p>
     </div>
-  <br>
+    </div>
+  </div>
 </body>
 </html>

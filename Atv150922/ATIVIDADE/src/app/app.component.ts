@@ -9,10 +9,10 @@ import { Component, Input, OnInit } from '@angular/core';
 export class AppComponent {
   title = 'ATIVIDADE';
 
-  nContato: String | undefined;
-  tContato: String | undefined;
+  nContato: string | undefined;
+  tContato: string | undefined;
 
-  salvarDados(nome: String, telefone: String){
+  salvarDados(nome: string, telefone: string){
     this.nContato = nome;
     this.tContato = telefone;
   }
